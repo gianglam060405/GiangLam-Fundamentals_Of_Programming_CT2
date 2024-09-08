@@ -99,7 +99,7 @@ namespace GiangLam_Exercise_1
         static void baitap07()
         {
             Console.WriteLine("Enter number to display a pattern triangles");
-            int number = 4;
+            int number = int.Parse(Console.ReadLine());
             int r_1 = 1;
             int r_2 = 1;
             for (int i = 1; i <= number; i++)
